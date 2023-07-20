@@ -1,0 +1,620 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');         
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.con{
+    height: 94vh;
+
+
+
+}
+.phone2-sec{
+    height: 100%;
+    position: relative;
+    top: -6%;
+    width: 100%;
+    
+display: flex;
+
+}
+.nav{
+    height: 6vh;
+    list-style: none;
+    display: flex;
+    width: 60%;
+
+justify-content: space-between;
+align-items: center;
+position: relative;
+left: 10%;
+font-family: 'DotGothic16', sans-serif;
+z-index: 1;
+                                                
+}
+.nav li{
+    font-weight: 600; 
+    
+    }
+
+.phone2img-sec{
+    background-image: url("img/Phone_2_desktop_1292x.webp");
+    width: 65%;
+    height: 100%;
+   
+    background-size: cover;
+    background-position: center;
+} 
+
+.phone2-content{
+width: 35%;
+background-color: #f2f2f2;
+height: 100%;
+display: flex;
+align-items: end;
+}
+.phone2-text{
+padding: 10px;
+height: 65%;
+display: flex;
+flex-direction: column;
+font-family: 'Josefin Slab', serif;
+justify-content: space-between;
+
+}
+.phone2-text p{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}                                                                        
+.phone2-text h1{
+    font-size: 60px;
+}
+
+.phone2-text  button{
+    border: none;
+border-radius: 20px;
+height: 20px;
+width: 430px;
+font-family: 'Josefin Slab', serif;
+font-size: 18px;
+color: white;
+font-weight: bold;
+background-color: #002F6C;
+}
+
+.con1{
+    height: 95vh;
+    
+}
+.phone1-sec{
+    height: 100%;
+
+    width: 100%;
+    
+display: flex;
+
+}
+.phone1img-sec{
+    background-image: url("img/hp-pc_1292x.webp");
+    width: 65%;
+    height: 100%;
+   
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} 
+.phone1img-sec img{
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+}
+.phone1-content{
+    width: 35%;
+    background-color: #f2f2f2;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    }
+    .phone1-text{
+        padding: 10px;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Josefin Slab', serif;
+        justify-content: space-between;
+        
+        }
+        .phone1-text p{
+            font-size: 18px;
+            color: black;
+            font-weight: bolder;
+        }                                                                        
+        .phone1-text h1{
+            font-size: 60px;
+        }
+        
+        .phone1-text  button{
+            border: none;
+        border-radius: 20px;
+        height: 20px;
+        width: 450px;
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        background-color: #002F6C;
+        }
+        .con2{
+            height: 95vh;
+            
+        }
+        .ear-sec{
+            height: 100%;
+            width: 100%;
+            
+        display: flex;
+       
+        }
+        .earimg-sec{
+            width: 65%;
+    height: 100%;
+   
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
+   
+}
+.earimg-sec video{
+    height: 100%;
+    width: 140%;
+    background-size: contain;
+}
+.earimg-res{
+    display: none;
+}
+
+      .ear-content{
+            width: 35%;
+    background-color: #f2f2f2;
+    height: 100%;
+    display: flex;
+    align-items: end;
+        }
+        .ear-text{
+            padding: 10px;
+            height: 45%;
+            
+            display: flex;
+            flex-direction: column;
+            font-family: 'Josefin Slab', serif;
+            justify-content: space-between;
+           
+            }
+            .ear-text p{
+                font-size: 18px;
+                color: black;
+                font-weight: bolder;
+            } 
+            .ear-text h1{
+                font-size: 60px;
+            }
+            .ear-text span{
+                display: flex;
+                justify-content: space-between;
+            }
+            .ear-text a{
+                color: #002F6C;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .con3{
+                height: 95vh;
+                background-color: aqua;
+            }
+            .stick-sec{
+                height: 100%;
+
+                width: 100%;
+                
+            display: flex;
+            }
+            .stickimg-sec{
+               
+                    background-image: url("img/ear-stick-05_8479a094-c8f5-4df8-962e-0197a8e622ec_1292x.webp");
+                    width: 65%;
+                    height: 100%;
+                   
+                    background-size: cover;
+                    background-position: center;
+                    position: relative;
+            }
+            .stickimg-sec img{
+                position: absolute;
+                bottom: 1%;
+                right: 2%;
+            }
+            .stick-content{
+                width: 35%;
+                background-color: #f2f2f2;
+                height: 100%;
+                display: flex;
+                align-items: end;
+                }
+                .stick-text{
+                    padding: 10px;
+                    height: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: 'Josefin Slab', serif;
+                    justify-content: space-between;
+                    
+                    }
+                    .stick-text p{
+                        font-size: 18px;
+                        color: black;
+                        font-weight: bolder;
+                    }   
+                    .stick-text h1{
+                        font-size: 60px;
+                    }
+                    .stick-text span{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .stick-text a{
+                        color: #002F6C;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                    .con4{
+                        height: 95vh;
+                        background-color: aqua;
+                    }
+                    .android-sec,.about-sec{
+                        height: 100%;
+        
+                        width: 100%;
+                        
+                    display: flex;
+                    }
+                    .androidimg-sec{
+               
+                        background-image: url("img/android_14_2560x2040_26a22268-9b66-46a1-b336-34047b9d2f0f_1292x.webp");
+                        width: 65%;
+                        height: 100%;
+                       
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .android-content,.about-content{
+                        width: 35%;
+                        background-color: #f2f2f2;
+                        height: 100%;
+                        display: flex;
+                        align-items: end;
+                        }
+                        .android-text,.about-text{
+                            padding: 10px;
+                            height: 60%;
+                            display: flex;
+                            flex-direction: column;
+                            font-family: 'Josefin Slab', serif;
+                            justify-content: space-between;
+                            
+                            }
+                            .android-text p,.about-text p{
+                                font-size: 18px;
+                                color: black;
+                                font-weight: bolder;
+                            }                                                                        
+                            .android-text h1,.about-text h1{
+                                font-size: 60px;
+                            }
+                            
+                            .android-text  button,.about-text button{
+                                border: none;
+                            border-radius: 20px;
+                            height: 20px;
+                            width: 450px;
+                            font-family: 'Josefin Slab', serif;
+                            font-size: 18px;
+                            color: white;
+                            font-weight: bold;
+                            background-color: #002F6C;
+                            }
+                            .con5{
+                                height: 95vh;
+                                background-color: aqua;
+                            }
+                            .aboutimg-sec{
+               
+                                background-image: url("img/8Image_1280x1020_8ca243be-6c65-42fb-b867-d58582ab2ac8_1292x.webp");
+                                width: 65%;
+                                height: 100%;
+                               
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            .con6{
+                                height: 50vh;
+                                background-color: #f2f2f2;
+                                font-family: 'Alice', serif;
+                            }
+                            .box-sec{
+                                width: 100%;
+                                height: 100%;
+                                
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                            }
+.box1{
+    width: 33%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box1 p{
+    font-size: 25px;
+    
+}
+.con7{
+    height: 50vh;
+    background-color: #DCD7D2;
+    font-family: 'Raleway Dots', cursive;
+}
+.footer1{
+    width: 90%;
+    height: 70%;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.f1{
+    list-style: none;
+height: 100%;
+display: flex;
+flex-direction: column;
+
+}
+.f1 span{
+margin-top: 10%;
+}
+.f1 li,h4{
+    font-weight: 500;
+    color: black;
+}
+.footer2{
+    height: 30%;
+   
+}
+.btm1{
+  
+    height: 40%;
+    
+}
+.btm1 span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    padding: 5px;
+}
+.btm1 span p{
+    font-weight: 500;
+    color: black;
+}
+.btm2{
+    height: 40%;
+}
+.btm2 span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+.btm2 span p,a{
+    font-weight: 500;
+    color: black;
+}
+.footer-res{
+    display: none;
+}
+@media(max-width:768px)
+
+{
+    .nav{
+        display: none;
+    }
+    .phone2-sec,.phone1-sec,.ear-sec,.stick-sec,.android-sec,.about-sec{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0;
+    }
+.con{
+    height: 180vh;
+}
+.phone2img-sec{
+    height: 100%;
+    width: 100%;
+background-image: url("img/Phone_2_mobile_828x.webp");
+background-position: center;
+background-size: cover;
+}
+.phone2-content,.phone1-content,.ear-content,.stick-content,.android-content,.about-content{
+    width: 100%;
+    height:30% ;
+    display: flex;
+    align-items: center;
+   
+}
+.phone2-text, .phone1-text,.ear-text,.stick-text,.android-text,.about-text{
+height: 100%;
+width: 100%;
+}
+.phone2-text p,.phone1-text p,.ear-text p,.stick-text p,.android-text p,.about-text p{
+    font-size: 15px;
+}
+.phone2-text h1,.phone1-text h1,.ear-text h1,.stick-text h1,.android-text h1,.about-text h1{
+    font-size: 30px;
+}
+.phone2-text button,.phone1-text button,.android-text button,.about-text button{
+    height:25px ;
+}
+.phone1img-sec img{
+    height: 250px;
+}
+.con1{
+    height: 180vh;
+}
+.phone1img-sec{
+    height: 100%;
+    width: 100%;
+background-image: url("img/hp-mob_828x.webp");
+background-position: center;
+background-size: cover;
+}
+.con2{
+    height: 80vh;
+    background-color: rgb(243, 240, 240);
+}
+
+.earimg-sec{
+   height: 60%;
+   width: 100%;
+}
+.ear-content{
+height: 40%;
+}
+
+.earimg-sec video{
+    height: 100%;
+    width: 100%;
+}
+.ear-text a,.stick-text a{
+    font-size: 15px;
+}
+.con3{
+    height: 180vh;
+}
+.stickimg-sec{
+    height: 100%;
+    width: 100%;
+background-image: url("img/ear-stick-mobile-05_bc8c782c-cdda-4396-a17e-60c975aa0788_828x.webp");
+background-position: center;
+background-size: cover;
+}
+.stickimg-sec img{
+    height: 250px;
+}
+.con4,.con5{
+    height: 180vh;
+}
+.androidimg-sec{
+    height: 100%;
+    width: 100%;
+background-image: url("img/android_14_750x1125_c15dc5a5-289c-4ab2-b6ee-0370867278be_828x.webp");
+background-position: center;
+background-size: cover;
+}
+.aboutimg-sec{
+    height: 100%;
+    width: 100%;
+background-image: url("img/7Image_750x1125_21d507cb-24bf-430a-a4c2-fb4170fd67df_828x.webp");
+background-position: center;
+background-size: cover;
+}
+.box-sec{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box1{
+    width: 100%;
+    align-items: start;
+    padding: 10px;
+}
+.box1 h1{
+    font-size: 20px;
+}
+.box1 p{
+    font-size: 18px;
+}
+.footer1,.footer2{
+    display: none;
+}
+.footer-res{
+ height: 95%;
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.f-r{
+    display: flex;
+    width: 95%;
+    height: 10%;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+align-items: center;
+padding: 10px;
+}
+.f-r p,i{
+font-weight: 500;
+color: black;
+}
+.footer-res span{
+height: 30%;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+#btm-res p,a{
+    font-weight: 500;
+    color:black;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
